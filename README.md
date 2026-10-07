@@ -14,7 +14,7 @@ Traditional resume assessment tools rely on rigid keyword matching or ungrounded
 
 ## 🏗️ Architecture & Core Components
 
-┌───────────────────────────┐
+  ┌───────────────────────────┐
                  │   Candidate Resume (PDF)  │
                  └─────────────┬─────────────┘
                                │
