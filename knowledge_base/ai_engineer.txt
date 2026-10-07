@@ -1,0 +1,34 @@
+Role: AI Engineer / LLM Engineer
+Core Requirements:
+Python, PyTorch, Transformers, LangChain, RAG Systems, Vector Databases, Prompt Engineering, Fine-Tuning, FastAPI, Docker, Git, Machine Learning
+
+Curated Learning Steps:
+Step: PyTorch Foundations
+Focus: Tensors, Autograd, Custom Training Loops, Neural Networks
+Resource: YouTube (freeCodeCamp / Daniel Bourke PyTorch) & Official PyTorch Tutorials
+Project: Train a custom classifier and export weights.
+
+Step: Transformer Architectures & Attention
+Focus: Self-Attention, Multi-Head Attention, BERT, GPT, Hugging Face Transformers
+Resource: Coursera (DeepLearning.AI - Natural Language Processing Specialization)
+Project: Build and tokenize text classification with Hugging Face Hub models.
+
+Step: Advanced RAG Systems & Vector DBs
+Focus: Semantic Search, Chunking Strategies, FAISS, ChromaDB, Hybrid Search, Reranking
+Resource: DeepLearning.AI Short Courses (LangChain & Vector Databases)
+Project: Build an end-to-end RAG system for company documentation.
+
+Step: Prompt Engineering & LLM Frameworks
+Focus: Few-Shot Prompting, Chain-of-Thought, LangChain LCEL, Output Parsers
+Resource: Coursera (Prompt Engineering for ChatGPT by Vanderbilt) & DeepLearning.AI
+Project: Construct an autonomous customer support chain with strict JSON outputs.
+
+Step: Open-Source LLM Fine-Tuning
+Focus: Parameter-Efficient Fine-Tuning (PEFT), LoRA, QLoRA, SFTTrainer, Quantization
+Resource: YouTube (Umar Jamil / Hugging Face Open-Source Tutorials)
+Project: Fine-tune a 1B/3B parameter model on domain-specific conversational data.
+
+Step: Production Deployment & MLOps
+Focus: FastAPI REST APIs, Asynchronous endpoints, Docker containerization, Model Serving
+Resource: YouTube (freeCodeCamp Docker & FastAPI Full Course)
+Project: Containerize an LLM inference API and run local benchmarks.

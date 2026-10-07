@@ -1,0 +1,24 @@
+Role: Data Scientist
+Core Requirements:
+Python, SQL, Pandas, NumPy, Scikit-Learn, Statistics, Data Analysis, Data Visualization, Machine Learning, Feature Engineering, Git, Business Intelligence
+
+Curated Learning Steps:
+Step: Applied Statistics & Probability
+Focus: Hypothesis Testing, Probability Distributions, A/B Testing, Confidence Intervals
+Resource: Coursera (Khan Academy & Imperial College Mathematics for ML)
+Project: Perform statistical hypothesis testing on marketing campaign datasets.
+
+Step: Advanced Feature Engineering & ML
+Focus: Missing Value Imputation, Categorical Encoding, Outlier Detection, Scikit-Learn Pipelines
+Resource: Coursera (DeepLearning.AI - Machine Learning Specialization by Andrew Ng)
+Project: End-to-end predictive pipeline with cross-validation and tuning.
+
+Step: Model Evaluation & Business Diagnostics
+Focus: ROC-AUC, Precision-Recall tradeoffs, Cost-sensitive classification, Business KPIs
+Resource: YouTube (StatQuest with Josh Starmer)
+Project: Build a churn prediction engine with clear executive ROI impact.
+
+Step: Business Intelligence & Interactive Dashboards
+Focus: Dashboard storytelling, KPI tracking, Power BI / Streamlit interactive metrics
+Resource: Coursera (Google Data Analytics Professional Certificate)
+Project: Interactive executive KPI dashboard connected to SQL database.

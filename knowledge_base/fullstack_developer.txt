@@ -1,0 +1,24 @@
+Role: Full-Stack Developer (.NET / Python)
+Core Requirements:
+C#, Python, ASP.NET Core MVC, REST APIs, SQL, Entity Framework, JavaScript, HTML5, CSS3, Docker, Git, Backend Architecture
+
+Curated Learning Steps:
+Step: Clean RESTful API Design & Architecture
+Focus: Controller vs Minimal APIs, Dependency Injection, DTOs, Repository Pattern
+Resource: YouTube (Nick Chapsas / Milan Jovanovic .NET Tutorials)
+Project: Production-grade REST API with swagger documentation and validation.
+
+Step: Database Modeling & Entity Framework Core
+Focus: Code-First Migrations, Fluent API, Indexing, Query Optimization, Relationships
+Resource: Coursera (Meta Back-End Developer / Microsoft Learn)
+Project: Multi-tenant relational schema with optimized CRUD operations.
+
+Step: Authentication & Security Best Practices
+Focus: JWT Bearer Tokens, Role-Based Access Control (RBAC), Identity Management
+Resource: YouTube (freeCodeCamp Web Security Fundamentals)
+Project: Secure authentication service with refresh token rotation.
+
+Step: Production Containerization & CI/CD
+Focus: Docker multi-stage builds, Docker Compose, GitHub Actions automation
+Resource: YouTube (TechWorld with Nana Docker Course)
+Project: Containerize frontend, backend API, and database in a single compose file.
