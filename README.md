@@ -14,24 +14,56 @@ Traditional resume assessment tools rely on rigid keyword matching or ungrounded
 
 ## 🏗️ Architecture & Core Components
 
-```mermaid
-flowchart TD
-    A[📄 Candidate Resume PDF] --> B[⚙️ Deterministic Extraction Pipeline<br>• CamelCase De-glitch & Regex Parsing<br>• Exact Substring & Semantic Normalizer]
-    B --> C[👤 Extracted Candidate Profile<br>• Verified Skills<br>• Experience & Project Hits]
-    
-    D[🎯 Target Role Selection] --> E[(🗄️ FAISS Vector DB)<br>Dense Embeddings: all-MiniLM-L6-v2]
-    E -->|Semantic Query Retrieval| F[📋 Target Role Benchmark]
-    
-    C --> G[📊 Dual-Factor Scoring Engine<br>• Core Skills Coverage: 85%<br>• Project & Practical Weight: 15%]
-    F --> G
-    
-    G --> H[🔍 Dynamic Competency Gap Analysis]
-    
-    H --> I[💼 Adaptive Job Recommendation Engine<br>Ranked by Similarity %]
-    H --> J[🗺️ SmolLM2 LLM Dynamic Synthesis<br>Zero-Filler Phased Roadmaps]
-    
-    I --> K[⚡ Modern Cyber-Glassmorphism UI<br>Streamlit Dashboard]
-    J --> K
+┌───────────────────────────┐
+                 │   Candidate Resume (PDF)  │
+                 └─────────────┬─────────────┘
+                               │
+                               ▼
+          ┌─────────────────────────────────────────┐
+          │    Deterministic Extraction Pipeline    │
+          │  • CamelCase De-glitch & Regex Parsing  │
+          │  • Exact Substring & Semantic Normalizer│
+          └─────────────┬───────────────────────────┘
+                        │
+          ┌─────────────┴─────────────┐
+          ▼                           ▼
+┌──────────────────┐        ┌──────────────────────────┐
+│ Extracted Profile│        │ Target Role (User Input) │
+│ • Verified Skills│        └─────────────┬────────────┘
+│ • Experience Hits│                      │
+└─────────┬────────┘                      ▼
+          │                 ┌──────────────────────────┐
+          │                 │   Vector Knowledge Base  │
+          │                 │   • FAISS (IndexFlatL2)  │
+          │                 │   • all-MiniLM-L6-v2     │
+          │                 └─────────────┬────────────┘
+          │                               │
+          │    ┌──────────────────────────┘ (Retrieved Benchmark)
+          ▼    ▼
+┌──────────────────────────────────────────────────────┐
+│            Dual-Factor Scoring Engine                │
+│  • Core Benchmark Coverage (85% Weight)              │
+│  • Context & Practical Project Relevance (15% Weight)│
+└───────────────────────┬──────────────────────────────┘
+                        │
+                        ▼
+          ┌───────────────────────────┐
+          │ Dynamic Competency Gaps   │
+          └─────────────┬─────────────┘
+                        │
+                        ▼
+┌──────────────────────────────────────────────────────┐
+│     Dynamic Pathway & Role Recommendation Engine     │
+│  • Tiered Job Matching (Ranked by Match %)           │
+│  • SmolLM2 LLM Autonomous Phase Synthesis            │
+│  • Platform & Capstone Project Attribution           │
+└───────────────────────┬──────────────────────────────┘
+                        │
+                        ▼
+┌──────────────────────────────────────────────────────┐
+│      Executive Cyber-Glassmorphism Interface         │
+│  • KPI Metrics • Live Progress • Dynamic Timelines   │
+└──────────────────────────────────────────────────────┘
 ---
 
 ## 🌟 Key Capabilities
